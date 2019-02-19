@@ -15,10 +15,11 @@ namespace OO_demo
 
         public bool Compare(AirCoin airCoin)
         {
-            return airCoin != null && GetAmountByMinUnit() == airCoin.GetAmountByMinUnit();            
+            return airCoin != null && GetAirCoinValue() == airCoin.GetAirCoinValue();            
         }
 
-        private long GetAmountByMinUnit()
+        // value = amount combine unit
+        private long GetAirCoinValue()
         {
             return Amount * (long) Unit;
         }
