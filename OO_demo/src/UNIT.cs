@@ -1,8 +1,8 @@
 namespace OO_demo
 {
-    public enum UNIT
+    public enum Unit
     {
-       Gold,
-       Silver
+       Gold = 10,
+       Silver = 1
     }
 }
