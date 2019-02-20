@@ -5,6 +5,9 @@ namespace OO_demo.test
 {
     public class AirCoinFact
     {
+        // Todo: 
+        //        1. 确认需求达成共识时间
+        //        2.
         [Fact]
         public void should_return_true_when_amount_value_and_unit_equal()
         {
